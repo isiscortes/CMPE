@@ -1,0 +1,43 @@
+.centrar {
+    background-image: url("./img/bg-masthead.jpg");
+    height: 600px;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    }
+
+.posicion{
+    margin-top: 12%;
+}
+
+.boton1{
+    color: white;
+    background-color:  #1d809f;
+    display: block;
+    margin: auto;
+    float:center;
+    border-radius: 12px;
+    padding: 13px 35px; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    margin-top: 2%;
+
+}
+.boton1:hover {background-color: #46a049;}
+
+button:hover:not(.active) {
+    background-color: #111;
+}
+
+h1{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
