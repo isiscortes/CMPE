@@ -1,21 +1,25 @@
-.centrar {
+.bgmasthead {
     background-image: url("./img/bg-masthead.jpg");
     height: 600px;
-    opacity: 0.7;
     background-repeat: no-repeat;
     }
 
-.posicion{
-    margin-top: 12%;
+.textobgmasthead{
+    margin-top: 18%;
+    margin-left: 14%;
 }
 
+.textobgcallout{
+    margin-top: 22%;
+    margin-right: 28%;
+}
 .boton1{
     color: white;
     background-color:  #1d809f;
     display: block;
     margin: auto;
     float:center;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 13px 35px; 
     cursor: pointer;
     text-align: center;
@@ -33,11 +37,175 @@ button:hover:not(.active) {
 h1{
     font-family: "Lato", sans-serif;
     text-align: center;
+    
+}
+
+h2{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+h5{
+    font-family: "Lato", sans-serif;
 }
 
 p{
-    margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
 }
+
+
+.texto--centrado{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.bh{
+    margin-right: 20%;
+}
+
+
+.blue{
+    background-color: #1d809f ;
+    color: white;
+    padding: 4%;
+}
+
+.yellow--title{
+    color: #ecb807;
+    font-weight: bold;
+}
+
+
+.botonBlanco{
+    color: black;
+    background-color: white;
+    display: block;
+    margin: auto;
+    float:right;
+    border-radius: 8px;
+    padding: 13px 35px; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    margin-top: 2%;
+
+}
+
+
+.botonGris{
+    color:  white;
+    background-color:   #696969;
+    display: block;
+    margin: auto;
+    float:left;
+    border-radius: 8px;
+    padding: 13px 35px; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    margin-top: 2%;
+
+}
+
+
+.botonNegro{
+    color:  white;
+    background-color:  black;
+    display: block;
+    margin: auto;
+    float:center;
+    border-radius: 8px;
+    padding: 13px 35px; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    margin-top: 2%;
+
+}
+
+
+.botonNegro:hover {background-color:  #00CED1;}
+
+.botonBlanco:hover {background-color:  #00CED1;}
+
+.bgcallout {
+    background-image: url("./img/bg-callout.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    }
+
+.bottom--left{
+    margin-top: 50%;
+    margin-right: 66%;
+}
+
+.iconos{
+    margin:15%;
+    margin-left: 33%;
+}
+
+.portfolio1 {
+    background-image: url("./img/portfolio-1.jpg");
+    height: 467px;
+    width: 50%;
+    background-repeat: no-repeat;
+    padding: 2%;
+
+}
+
+.portfolio2 {
+    background-image: url("./img/portfolio-2.jpg");
+    height: 467px;
+    width: 200px;
+    background-repeat: no-repeat;
+    padding: 2%;
+
+
+}
+
+.portfolio3 {
+    background-image: url("./img/portfolio-3.jpg");
+    height: 467px;
+    width: 200px;
+    background-repeat: no-repeat;
+    padding: 2%;
+
+
+}
+  
+.portfolio4 {
+    background-image: url("./img/portfolio-4.jpg");
+    height: 467px;
+    width: 200px;
+    background-repeat: no-repeat;
+    padding: 2%;
+
+
+}
+
+
+.white--text{
+    color: white;
+    text-align: center;
+}
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 
